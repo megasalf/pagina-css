@@ -1,0 +1,525 @@
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%; /* Full width */
+            box-sizing: border-box;
+        }
+        .nav {
+            background-color: #222;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .nav .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav .logo span {
+            color: #00aaff;
+        }
+        .nav .menu {
+            display: flex;
+        }
+        .nav .menu a {
+            display: block;
+            color: #ddd;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav .menu a:hover {
+            background-color: #575757;
+            color: white;
+        }
+        .nav .menu a.active {
+            color: #00aaff;
+        }
+        .hero {
+            background: url(/assets/imagenes/cabecera.jpg) no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .subscribe {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .subscribe h2 {
+            margin: 0;
+            padding-right: 10px;
+        }
+        .subscribe form {
+            display: flex;
+            align-items: center;
+        }
+        .subscribe input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+        .subscribe button {
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .feature img {
+            width: 100px;
+            height: 100px;
+        }
+        .feature h3 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .feature p {
+            font-size: 14px;
+            color: #666;
+        }
+        .footer {
+            background-color: #00aaff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        /*index*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header h1 span {
+            color: #00aaff;
+        }
+        .nav {
+            background-color: #333;
+            overflow: hidden;
+            border-bottom: 3px solid #00aaff;
+        }
+        .nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .nav a.active {
+            color: #00aaff;
+        }
+        .subscribe {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .subscribe p {
+            margin: 0;
+            margin-right: 10px;
+        }
+        .subscribe input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .subscribe input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-content {
+            width: 65%;
+        }
+        .main-content h2 {
+            font-size: 24px;
+        }
+        .main-content p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .main-content .highlight {
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .main-content img {
+            width: 100%;
+            height: auto;
+        }
+        .sidebar {
+            background-color: #24282b;
+            color: white;
+            padding: 20px;
+            width: 300px;
+            height: fit-content;
+        
+        }
+        .sidebar h2 {
+            font-size: 18px;
+        }
+        .sidebar p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #00aaff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    /*nosotros*/
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        position: relative;
+    }
+    
+    .header .logo {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+    
+    .header .logo h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+    
+    .header .logo h1 span {
+        color: #00aaff;
+    }
+    
+    .nav {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .nav a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .nav a.active {
+        color: #00aaff;
+    }
+    
+    .header::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #00aaff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .subscribe {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        border-bottom: 3px solid #00aaff;
+    }
+    
+    .subscribe-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .subscribe p {
+        margin: 0;
+        margin-right: 20px;
+    }
+    
+    .subscribe form {
+        display: flex;
+        align-items: center;
+    }
+    
+    .subscribe input[type="email"] {
+        padding: 10px;
+        width: 200px;
+        border: none;
+        border-radius: 3px;
+        margin: 0 10px;
+        box-sizing: border-box;
+    }
+    
+    .subscribe button {
+        padding: 10px 20px;
+        background-color: #ff5722;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .contact-form {
+        width: 60%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h2 {
+        margin-top: 0;
+        color: #333;
+    }
+    
+    .contact-form label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #333;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #ff5722;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .sidebar-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 35%;
+    }
+    
+    .sidebar {
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+    
+    .sidebar h3 {
+        margin-top: 0;
+    }
+    
+    .sidebar p {
+        margin: 10px 0;
+    }
+    
+    .sidebar img {
+        width: 100%;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+    
+    .footer {
+        background-color: #00aaff;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    /*contactanos*/
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .header-dm {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+    }
+    .header-dm .container-dm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .header-dm h1 {
+        margin: 0;
+    }
+    .header-dm h1 span {
+        color: #00aaff;
+    }
+    .nav-dm {
+        display: flex;
+        gap: 20px;
+    }
+    .nav-dm a {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-dm a:hover {
+        text-decoration: underline;
+    }
+    .subscribe-dm {
+        background-color: #222;
+        color: white;
+        padding: 20px 0;
+    }
+    .subscribe-dm .container-dm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .subscribe-dm input[type="email"] {
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        margin-right: 10px;
+    }
+    .subscribe-dm button {
+        padding: 10px 20px;
+        background-color: #ff5722;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+    }
+    .main-dm {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .main-dm h2 {
+        margin-bottom: 20px;
+    }
+    .content-dm {
+        display: flex;
+        gap: 20px;
+    }
+    .services-dm {
+        flex: 2;
+    }
+    .services-dm .service-dm {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+    .services-dm .service-dm h3 {
+        margin-top: 0;
+    }
+    .sidebar-dm {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        width: 300px;
+        height: fit-content;
+    }
+    .footer-dm {
+        background-color: #00aaff;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    /*servicios*/
